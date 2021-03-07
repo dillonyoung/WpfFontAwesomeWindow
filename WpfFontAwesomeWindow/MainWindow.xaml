@@ -1,0 +1,55 @@
+﻿<Window x:Class="WpfFontAwesomeWindow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfFontAwesomeWindow"
+        mc:Ignorable="d"
+        Title="WPF FontAwesome Window" Height="450" Width="800" WindowStyle="None" Background="OrangeRed" MaxHeight="{Binding Source={x:Static SystemParameters.MaximizedPrimaryScreenHeight}}">
+    <WindowChrome.WindowChrome>
+        <WindowChrome CaptionHeight="0"/>
+    </WindowChrome.WindowChrome>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Style="{StaticResource GridWindowHeader}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <ContentControl Grid.Column="0" Name="ContentControlWindowSystemMenu" MouseLeftButtonDown="ContentControlWindowSystemMenu_OnMouseLeftButtonDown" MouseDoubleClick="ContentControlWindowSystemMenu_OnMouseDoubleClick">
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Style="{StaticResource TextBlockWindowButtonSystemMenu}"></TextBlock>
+                </StackPanel>
+            </ContentControl>
+
+            <ContentControl Grid.Column="1" Name="ContentControlWindowCaption" MouseLeftButtonDown="ContentControlWindowCaption_OnMouseLeftButtonDown" MouseDoubleClick="ContentControlWindowCaption_OnMouseDoubleClick">
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Center">
+                    <TextBlock Style="{StaticResource TextBlockWindowCaption}"></TextBlock>
+                </StackPanel>
+            </ContentControl>
+
+
+
+
+            <StackPanel Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" Name="StackPanelMinimize" MouseLeftButtonUp="StackPanelMinimize_OnMouseLeftButtonUp">
+                <TextBlock Style="{StaticResource TextBlockWindowButtonMinimize}"></TextBlock>
+            </StackPanel>
+
+            <StackPanel Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" Name="StackPanelMaximize" MouseLeftButtonUp="StackPanelMaximize_OnMouseLeftButtonUp">
+                <TextBlock Style="{StaticResource TextBlockWindowButtonMaximize}"></TextBlock>
+            </StackPanel>
+
+            <StackPanel Grid.Column="4" HorizontalAlignment="Center" VerticalAlignment="Center" Name="StackPanelClose" MouseLeftButtonUp="StackPanelClose_OnMouseLeftButtonUp">
+                <TextBlock Style="{StaticResource TextBlockWindowButtonClose}"></TextBlock>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

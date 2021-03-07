@@ -1,0 +1,13 @@
+projectName: 'D:\Source Code\Apps\WpfFontAwesomeWindow\WpfFontAwesomeWindow'
+version: 5.15.1
+icons:
+  - window-maximize:
+      - light
+  - window-restore:
+      - light
+  - times:
+      - light
+  - windows:
+      - brands
+  - window-minimize:
+      - light

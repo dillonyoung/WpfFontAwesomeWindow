@@ -1,0 +1,16 @@
+D:\Source Code\Apps\WpfFontAwesomeWindow\WpfFontAwesomeWindow\bin\Debug\WpfFontAwesomeWindow.exe.config
+D:\Source Code\Apps\WpfFontAwesomeWindow\WpfFontAwesomeWindow\bin\Debug\WpfFontAwesomeWindow.exe
+D:\Source Code\Apps\WpfFontAwesomeWindow\WpfFontAwesomeWindow\bin\Debug\WpfFontAwesomeWindow.pdb
+D:\Source Code\Apps\WpfFontAwesomeWindow\WpfFontAwesomeWindow\obj\Debug\WpfFontAwesomeWindow.csprojAssemblyReference.cache
+D:\Source Code\Apps\WpfFontAwesomeWindow\WpfFontAwesomeWindow\obj\Debug\MainWindow.g.cs
+D:\Source Code\Apps\WpfFontAwesomeWindow\WpfFontAwesomeWindow\obj\Debug\App.g.cs
+D:\Source Code\Apps\WpfFontAwesomeWindow\WpfFontAwesomeWindow\obj\Debug\WpfFontAwesomeWindow_MarkupCompile.cache
+D:\Source Code\Apps\WpfFontAwesomeWindow\WpfFontAwesomeWindow\obj\Debug\WpfFontAwesomeWindow_MarkupCompile.lref
+D:\Source Code\Apps\WpfFontAwesomeWindow\WpfFontAwesomeWindow\obj\Debug\App.baml
+D:\Source Code\Apps\WpfFontAwesomeWindow\WpfFontAwesomeWindow\obj\Debug\MainWindow.baml
+D:\Source Code\Apps\WpfFontAwesomeWindow\WpfFontAwesomeWindow\obj\Debug\WpfFontAwesomeWindow.g.resources
+D:\Source Code\Apps\WpfFontAwesomeWindow\WpfFontAwesomeWindow\obj\Debug\WpfFontAwesomeWindow.Properties.Resources.resources
+D:\Source Code\Apps\WpfFontAwesomeWindow\WpfFontAwesomeWindow\obj\Debug\WpfFontAwesomeWindow.csproj.GenerateResource.cache
+D:\Source Code\Apps\WpfFontAwesomeWindow\WpfFontAwesomeWindow\obj\Debug\WpfFontAwesomeWindow.csproj.CoreCompileInputs.cache
+D:\Source Code\Apps\WpfFontAwesomeWindow\WpfFontAwesomeWindow\obj\Debug\WpfFontAwesomeWindow.exe
+D:\Source Code\Apps\WpfFontAwesomeWindow\WpfFontAwesomeWindow\obj\Debug\WpfFontAwesomeWindow.pdb
